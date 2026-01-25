@@ -1,0 +1,10 @@
+body { background:#f7fbff; font-family:Inter,system-ui,Arial; color:#0a2540; padding:28px; }
+.app { max-width:720px; margin:auto; background:white; padding:22px; border-radius:12px; box-shadow:0 6px 20px rgba(10,20,40,0.06); }
+h1 { color:#0033ff; margin:0 0 12px 0; }
+input, textarea { width:100%; padding:10px; margin:8px 0; border-radius:8px; border:1px solid #dbe9ff; }
+button { background:#0066ff; color:white; border:none; padding:10px 14px; border-radius:8px; cursor:pointer; }
+.hidden { display:none; }
+#inboxList { list-style:none; padding:0; }
+#inboxList li { border:1px solid #eef6ff; margin:8px 0; padding:10px; border-radius:8px; }
+.note { color:#6b7280; font-size:0.9rem; }
+footer { margin-top:18px; color:#6b7280; font-size:0.85rem; }
