@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>BaseLoop Messenger</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <h1>BaseLoop Messenger</h1>
+    <button id="connectButton">Connect Wallet</button>
+    <div id="status"></div>
+
+    <section id="sendSection" class="hidden">
+      <h2>Send Message</h2>
+      <input id="toInput" placeholder="recipient address" />
+      <textarea id="messageInput" placeholder="message text (will be uploaded to Web3.Storage)"></textarea>
+      <button id="sendButton">Send (upload & send)</button>
+      <p class="note">Or paste an existing IPFS CID below:</p>
+      <input id="cidInput" placeholder="optional: paste CID (Qm...)" />
+      <button id="sendCidButton">Send CID only</button>
+    </section>
+
+    <section id="inboxSection" class="hidden">
+      <h2>Your Inbox</h2>
+      <button id="refreshInbox">Refresh Inbox</button>
+      <ul id="inboxList"></ul>
+    </section>
+
+    <footer>
+      <small>Requires BLOOPASS NFT to send messages. Message data stored off-chain (IPFS).</small>
+    </footer>
+  </div>
+
+  <script src="https://cdn.ethers.io/lib/ethers-5.7.umd.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
