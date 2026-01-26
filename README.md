@@ -1,5 +1,8 @@
 # BaseLoop Messenger
+---
+<img width="858" height="858" alt="1000108267" src="https://github.com/user-attachments/assets/5c37cd6d-83d4-4a21-983d-3b788b9588b2" />
 
+---
 BaseLoop Messenger is a minimal decentralized messaging layer for the BaseLoop ecosystem.  
 Send short messages between wallets or `.blup` identities; message contents are stored off-chain (IPFS / Web3.Storage) and the contract records immutable CIDs and timestamps on-chain.
 
