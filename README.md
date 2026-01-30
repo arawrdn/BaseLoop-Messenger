@@ -1,3 +1,8 @@
+![Built on Base](https://img.shields.io/badge/Built%20on%20Base-blue?logo=coinbase)
+![Base Ecosystem Project](https://img.shields.io/badge/Base%20Ecosystem%20Project-0052ff?logo=coinbase)
+![Base Verified Contract](https://img.shields.io/badge/Base%20Verified%20Contract-0f67ff?logo=coinbase)
+
+
 # BaseLoop Messenger
 ---
 <img width="858" height="858" alt="1000108267" src="https://github.com/user-attachments/assets/5c37cd6d-83d4-4a21-983d-3b788b9588b2" />
